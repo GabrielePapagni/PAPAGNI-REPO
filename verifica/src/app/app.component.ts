@@ -8,8 +8,5 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  names: string[];
-  constructor() { 
-    this.names = ['Escavatore', 'Pala Meccanica', 'Bulldozer', 'Grù', 'Rullo Compattatore', 'Trattore Cingolato', 'Betoniera', 'Camion Ribaltabile', 'Carrello Elevatore', 'Miniescavatore']; // Riempiamo il vettore con nomi di macchine da cantiere
-  }
+  
 }
